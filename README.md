@@ -16,10 +16,10 @@ A Python-based tool for testing web servers against Slow HTTP DoS attacks, simil
 ### Prerequisites
 - Python 3.6 or higher
 - No external dependencies required
-
+```
 ### Setup
-```bash
 # Clone or download the script
+```bash
 git clone https://github.com/Saqralkalai/slowhttp-project.git
 cd slowhttp-project
 ```
