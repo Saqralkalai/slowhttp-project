@@ -22,8 +22,9 @@ A Python-based tool for testing web servers against Slow HTTP DoS attacks, simil
 # Clone or download the script
 git clone https://github.com/Saqralkalai/slowhttp-project.git
 cd slowhttp-project
-
+```
 # Make the script executable (optional)
+```bash
 chmod +x slowhttp_attack.py
 ```
 
@@ -105,7 +106,7 @@ python slowhttp_attack.py -u http://localhost:8080 -c 50 -i 5 -v
 Advanced Load Testing
 
 ```bash
-python slowhttp_attack.py -u https://example.com -c 500 -r 100 -i 2 -g -o load_test -p 10 -v
+python slowhttp_attack.py -u https://example.com -c 5000 -r 100 -i 2 -g -o load_test -p 10 -v
 ```
 
 Quick Verification
